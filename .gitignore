@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# PyInstaller 빌드 산출물 (exe 는 GitHub Releases 등으로 따로 배포)
+build/
+dist/
+
+# 크롤러가 만든 결과 파일
+naver_news*.json
+naver_news*.csv
+naver_news*.xlsx
+kospi200*.json
+kospi200*.csv
+kospi200*.xlsx
+
+# 편집기 / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+desktop.ini
