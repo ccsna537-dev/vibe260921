@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="뱀 게임">
+  <rect width="400" height="240" fill="#1e1e1e"/>
+  <g stroke="#2a2a2a" stroke-width="1">
+    <path d="M0 40h400M0 80h400M0 120h400M0 160h400M0 200h400M40 0v240M80 0v240M120 0v240M160 0v240M200 0v240M240 0v240M280 0v240M320 0v240M360 0v240"/>
+  </g>
+  <!-- player snake -->
+  <g fill="#81c784">
+    <rect x="41" y="81" width="38" height="38"/><rect x="81" y="81" width="38" height="38"/>
+    <rect x="121" y="81" width="38" height="38"/><rect x="121" y="121" width="38" height="38"/>
+    <rect x="161" y="121" width="38" height="38"/>
+  </g>
+  <rect x="201" y="121" width="38" height="38" fill="#4caf50"/>
+  <!-- ai snake -->
+  <g fill="#64b5f6">
+    <rect x="321" y="41" width="38" height="38"/><rect x="321" y="81" width="38" height="38"/>
+    <rect x="281" y="81" width="38" height="38"/><rect x="281" y="121" width="38" height="38"/>
+    <rect x="281" y="161" width="38" height="38"/>
+  </g>
+  <rect x="241" y="161" width="38" height="38" fill="#2196f3"/>
+  <!-- apples -->
+  <g fill="#e53935">
+    <circle cx="260" cy="140" r="16" transform="translate(0 -60)"/>
+    <circle cx="100" cy="180" r="16"/>
+    <circle cx="180" cy="40" r="16" transform="translate(0 0)"/>
+  </g>
+</svg>

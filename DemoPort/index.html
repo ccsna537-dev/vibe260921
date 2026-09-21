@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>최수나 | 바이브코딩 · Python · HTML5 개발자</title>
+<meta name="description" content="바이브코딩, Python, HTML5를 다루는 개발자 최수나의 프로필과 프로젝트를 소개합니다.">
+<meta name="author" content="최수나">
+<meta name="theme-color" content="#0d1117">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="최수나 | 바이브코딩 · Python · HTML5 개발자">
+<meta property="og:description" content="AI와 함께 아이디어를 빠르게 동작하는 코드로 만드는 개발자 최수나의 포트폴리오.">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<!-- 깜빡임 방지: 렌더링 전에 저장된 테마(없으면 시스템 설정)를 먼저 적용 -->
+<script>
+  (function () {
+    var root = document.documentElement;
+    root.classList.add('js');
+    var theme;
+    try { theme = localStorage.getItem('theme'); } catch (e) {}
+    if (theme !== 'light' && theme !== 'dark') {
+      theme = window.matchMedia && matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    }
+    root.setAttribute('data-theme', theme);
+  })();
+</script>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">본문 바로가기</a>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="주 메뉴">
+    <a class="brand" href="#home">최수나<span>.dev</span></a>
+
+    <button class="nav-toggle" id="nav-toggle" type="button"
+            aria-expanded="false" aria-controls="nav-menu" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-menu" id="nav-menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="라이트 테마로 전환">
+          <span aria-hidden="true">☀️</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- 1. Hero -->
+  <section class="hero" id="home" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">안녕하세요, 개발자</p>
+        <h1 id="hero-title">최수나</h1>
+        <p class="hero-role">Vibe Coder <span>·</span> Python <span>·</span> HTML5</p>
+        <p class="hero-desc">
+          AI와 함께 아이디어를 빠르게 동작하는 코드로 만듭니다.
+          PRD로 방향을 잡고, 직접 실행해 보며 완성하는 개발자입니다.
+        </p>
+        <ul class="tag-list" aria-label="주력 분야">
+          <li class="tag tag-accent">바이브코딩</li>
+          <li class="tag tag-accent">Python</li>
+          <li class="tag tag-accent">HTML5</li>
+        </ul>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#projects">프로젝트 보기</a>
+          <a class="btn btn-outline" href="#contact">연락하기</a>
+        </div>
+      </div>
+
+      <div class="terminal" aria-hidden="true">
+        <div class="terminal-bar">
+          <i></i><i></i><i></i>
+          <span>suna@demoport: ~</span>
+        </div>
+        <pre class="terminal-body" id="terminal-body"></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. About -->
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-kicker">01 · About</p>
+        <h2 id="about-title">소개</h2>
+      </header>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            저는 <strong>바이브코딩</strong>으로 아이디어를 빠르게 형태로 만드는 개발자 최수나입니다.
+            Python으로 게임과 자동화를 만들고, HTML5로 브라우저에서 바로 실행되는 인터랙티브한 결과물을 만듭니다.
+          </p>
+          <p>
+            좋은 결과는 좋은 질문과 명확한 요구사항에서 나온다고 믿습니다.
+            그래서 코드를 쓰기 전에 PRD로 목표와 범위를 먼저 정리하고, AI와 대화하며 구현한 뒤,
+            직접 실행하고 확인하는 과정을 반복합니다.
+          </p>
+          <p>
+            뱀 게임, 테트리스, 슈팅 게임처럼 눈에 보이는 작은 프로젝트를 만들며
+            아이디어가 동작하는 제품이 되는 과정을 즐깁니다.
+          </p>
+        </div>
+
+        <ol class="steps reveal" aria-label="바이브코딩 작업 방식">
+          <li>
+            <span class="step-no">1</span>
+            <div><h3>기획 · PRD</h3><p>목표, 기능, 완료 기준을 문서로 먼저 정리합니다.</p></div>
+          </li>
+          <li>
+            <span class="step-no">2</span>
+            <div><h3>AI와 구현</h3><p>대화로 코드를 만들고 작은 단위로 빠르게 반복합니다.</p></div>
+          </li>
+          <li>
+            <span class="step-no">3</span>
+            <div><h3>실행 · 검증</h3><p>직접 실행해 보고 문제를 찾아 다듬습니다.</p></div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Skills -->
+  <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-kicker">02 · Skills</p>
+        <h2 id="skills-title">기술 스택</h2>
+      </header>
+
+      <!-- 숙련도 수치(--level)와 세부 항목은 실제 경험에 맞게 수정하세요. -->
+      <div class="skill-grid">
+        <article class="card skill-card reveal">
+          <div class="skill-icon" aria-hidden="true">🤖</div>
+          <h3>바이브코딩</h3>
+          <p>AI와 협업하며 아이디어를 빠르게 동작하는 결과물로 만듭니다.</p>
+          <ul class="tag-list">
+            <li class="tag">AI 협업 개발</li>
+            <li class="tag">프롬프트 설계</li>
+            <li class="tag">PRD 작성</li>
+            <li class="tag">빠른 프로토타이핑</li>
+          </ul>
+          <div class="meter-wrap">
+            <span class="meter-label">주력 · 90%</span>
+            <div class="meter" role="meter" aria-label="바이브코딩 숙련도" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90" style="--level:90%"><span></span></div>
+          </div>
+        </article>
+
+        <article class="card skill-card reveal">
+          <div class="skill-icon" aria-hidden="true">🐍</div>
+          <h3>Python</h3>
+          <p>스크립트와 데이터 처리, 그리고 간단한 게임과 GUI를 만듭니다.</p>
+          <ul class="tag-list">
+            <li class="tag">스크립트 · 자동화</li>
+            <li class="tag">데이터 처리</li>
+            <li class="tag">게임</li>
+            <li class="tag">GUI (tkinter)</li>
+          </ul>
+          <div class="meter-wrap">
+            <span class="meter-label">주력 · 80%</span>
+            <div class="meter" role="meter" aria-label="Python 숙련도" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" style="--level:80%"><span></span></div>
+          </div>
+        </article>
+
+        <article class="card skill-card reveal">
+          <div class="skill-icon" aria-hidden="true">🌐</div>
+          <h3>HTML5</h3>
+          <p>시맨틱 마크업부터 Canvas 게임과 인터랙션까지 웹으로 구현합니다.</p>
+          <ul class="tag-list">
+            <li class="tag">시맨틱 마크업</li>
+            <li class="tag">Canvas</li>
+            <li class="tag">CSS3</li>
+            <li class="tag">JavaScript</li>
+          </ul>
+          <div class="meter-wrap">
+            <span class="meter-label">주력 · 85%</span>
+            <div class="meter" role="meter" aria-label="HTML5 숙련도" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85" style="--level:85%"><span></span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Projects -->
+  <section class="section" id="projects" aria-labelledby="projects-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-kicker">03 · Projects</p>
+        <h2 id="projects-title">프로젝트</h2>
+      </header>
+
+      <div class="filters reveal" id="project-filters" role="group" aria-label="프로젝트 필터"></div>
+      <div class="project-grid" id="project-grid" aria-live="polite">
+        <noscript><p class="muted">프로젝트 목록을 보려면 JavaScript를 켜 주세요.</p></noscript>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Contact -->
+  <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-kicker">04 · Contact</p>
+        <h2 id="contact-title">연락하기</h2>
+      </header>
+
+      <div class="contact-card card reveal">
+        <p>프로젝트 제안, 협업, 궁금한 점이 있다면 편하게 메일 주세요.</p>
+        <p class="email-line">
+          <a class="email" id="email-text" href="mailto:ccsna537@gmail.com">ccsna537@gmail.com</a>
+        </p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="mailto:ccsna537@gmail.com">메일 보내기</a>
+          <button class="btn btn-outline" id="copy-email" type="button">이메일 주소 복사</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year">2026</span> 최수나. All rights reserved.</p>
+    <a href="#home">맨 위로 ↑</a>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/projects.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

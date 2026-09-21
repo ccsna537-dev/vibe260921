@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="프로필 웹사이트">
+  <rect width="400" height="240" fill="#161b22"/>
+  <rect x="30" y="24" width="340" height="192" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <rect x="30" y="24" width="340" height="24" rx="10" fill="#1c2128"/>
+  <circle cx="46" cy="36" r="4" fill="#ff5f56"/><circle cx="60" cy="36" r="4" fill="#ffbd2e"/><circle cx="74" cy="36" r="4" fill="#27c93f"/>
+  <!-- nav -->
+  <rect x="46" y="60" width="40" height="8" rx="4" fill="#58a6ff"/>
+  <g fill="#30363d"><rect x="240" y="60" width="26" height="8" rx="4"/><rect x="274" y="60" width="26" height="8" rx="4"/><rect x="308" y="60" width="26" height="8" rx="4"/></g>
+  <!-- hero text -->
+  <rect x="46" y="96" width="120" height="16" rx="4" fill="#e6edf3"/>
+  <rect x="46" y="120" width="90" height="8" rx="4" fill="#58a6ff"/>
+  <g fill="#8b949e" opacity=".7"><rect x="46" y="140" width="150" height="6" rx="3"/><rect x="46" y="152" width="120" height="6" rx="3"/></g>
+  <rect x="46" y="172" width="54" height="18" rx="6" fill="#58a6ff"/>
+  <rect x="108" y="172" width="54" height="18" rx="6" fill="none" stroke="#30363d"/>
+  <!-- terminal -->
+  <rect x="226" y="92" width="128" height="100" rx="8" fill="#161b22" stroke="#30363d"/>
+  <g fill="#3fb950"><rect x="238" y="108" width="6" height="6" rx="2"/><rect x="238" y="126" width="6" height="6" rx="2"/></g>
+  <g fill="#8b949e"><rect x="250" y="108" width="44" height="6" rx="3"/><rect x="250" y="126" width="64" height="6" rx="3"/><rect x="238" y="144" width="80" height="6" rx="3"/></g>
+  <rect x="238" y="162" width="6" height="12" fill="#58a6ff"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="테트리스">
+  <rect width="400" height="240" fill="#0b0f14"/>
+  <rect x="130" y="0" width="140" height="240" fill="#000"/>
+  <g stroke="#ffffff10">
+    <path d="M144 0v240M158 0v240M172 0v240M186 0v240M200 0v240M214 0v240M228 0v240M242 0v240M256 0v240"/>
+  </g>
+  <!-- stacked cells: 14px each, board x from 130 -->
+  <g stroke="#00000055" stroke-width="1">
+    <g fill="#00d8e8"><rect x="130" y="226" width="14" height="14"/><rect x="144" y="226" width="14" height="14"/><rect x="158" y="226" width="14" height="14"/><rect x="172" y="226" width="14" height="14"/></g>
+    <g fill="#ee3b3b"><rect x="186" y="226" width="14" height="14"/><rect x="200" y="226" width="14" height="14"/><rect x="200" y="212" width="14" height="14"/><rect x="214" y="212" width="14" height="14"/></g>
+    <g fill="#f7d51d"><rect x="214" y="226" width="14" height="14"/><rect x="228" y="226" width="14" height="14"/><rect x="214" y="198" width="0" height="0"/><rect x="228" y="212" width="14" height="14"/><rect x="242" y="212" width="14" height="14"/></g>
+    <g fill="#3fc14a"><rect x="242" y="226" width="14" height="14"/><rect x="256" y="226" width="14" height="14"/><rect x="256" y="212" width="14" height="14"/><rect x="256" y="198" width="14" height="14"/></g>
+    <g fill="#a44fd8"><rect x="130" y="212" width="14" height="14"/><rect x="144" y="212" width="14" height="14"/><rect x="158" y="212" width="14" height="14"/><rect x="144" y="198" width="14" height="14"/></g>
+    <g fill="#2f6fe0"><rect x="172" y="212" width="14" height="14"/><rect x="172" y="198" width="14" height="14"/><rect x="186" y="198" width="14" height="14"/><rect x="200" y="198" width="14" height="14"/></g>
+    <!-- falling piece -->
+    <g fill="#f59a1c"><rect x="186" y="60" width="14" height="14"/><rect x="200" y="60" width="14" height="14"/><rect x="214" y="60" width="14" height="14"/><rect x="214" y="46" width="14" height="14"/></g>
+  </g>
+  <!-- ghost -->
+  <g fill="none" stroke="#f59a1c" stroke-opacity=".5" stroke-width="2">
+    <rect x="187" y="183" width="12" height="12"/><rect x="201" y="183" width="12" height="12"/><rect x="215" y="183" width="12" height="12"/><rect x="215" y="169" width="12" height="12"/>
+  </g>
+  <!-- side blocks -->
+  <g stroke="#00000055" fill="#a44fd8">
+    <rect x="310" y="40" width="14" height="14"/><rect x="324" y="40" width="14" height="14"/><rect x="338" y="40" width="14" height="14"/><rect x="324" y="26" width="14" height="14"/>
+  </g>
+  <g stroke="#00000055" fill="#00d8e8">
+    <rect x="52" y="40" width="14" height="14"/><rect x="66" y="40" width="14" height="14"/><rect x="80" y="40" width="14" height="14"/><rect x="94" y="40" width="14" height="14"/>
+  </g>
+</svg>
